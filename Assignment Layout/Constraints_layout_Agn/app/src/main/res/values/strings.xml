@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Constraints_layout_Agn</string>
+    <string name="icon">icon</string>
+    <string name="cast">Cast</string>
+    <string name="bell">bell</string>
+    <string name="account">account</string>
+    <string name="main1">main1</string>
+    <string name="library">library</string>
+    <string name="add">add</string>
+    <string name="subscription">subscription</string>
+
+
+</resources>

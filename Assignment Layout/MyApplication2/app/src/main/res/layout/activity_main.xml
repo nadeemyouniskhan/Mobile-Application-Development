@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/appbar"
+        android:layout_width="420dp"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/icon"
+            android:contentDescription="icon" />
+
+        <TextView
+            android:id="@+id/youtube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="240dp"
+            android:layout_marginStart="15dp"
+            android:text="@string/youtube"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/cast"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="170dp"
+            android:contentDescription="@string/cast"
+            app:srcCompat="@drawable/cast" />
+
+        <ImageView
+            android:id="@+id/bell"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="120dp"
+            android:contentDescription="@string/icon"
+            app:srcCompat="@drawable/bell" />
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="70dp"
+            app:srcCompat="@drawable/search"
+            android:contentDescription="@string/icon"/>
+
+        <ImageView
+            android:id="@+id/account"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:contentDescription="@string/icon"
+            app:srcCompat="@drawable/account" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:backgroundTint="#C5C5C5"
+            android:text="@string/all"
+            android:textColor="@color/black"
+            android:textStyle="bold"></Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="135dp"
+            android:layout_marginEnd="70dp"
+            android:backgroundTint="#C5C5C5"
+            android:text="@string/pakistan"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck"></Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginEnd="40dp"
+            android:backgroundTint="#C5C5C5"
+            android:text="@string/pakistan"
+            android:textColor="@color/black"
+            android:textStyle="bold"></Button>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/ic_main1"
+            android:contentDescription="@string/icon"></ImageView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp">
+
+            <ImageView
+                android:contentDescription="@string/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/icon" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="60dp"
+                android:layout_marginStart="65dp"
+                android:text="@string/dry_fruit_se_bhhara_fresh_juice_ka_glass"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/more"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                app:srcCompat="@drawable/more"
+                android:contentDescription="@string/icon"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/ic_main1"
+            android:contentDescription="@string/icon"></ImageView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp">
+
+            <ImageView
+                android:id="@+id/mainicon"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/icon"
+                app:srcCompat="@drawable/icon" />
+
+            <TextView
+                android:id="@+id/main1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="60dp"
+                android:layout_marginStart="65dp"
+                android:text="@string/dry_fruit_se_bhhara_fresh_juice_ka_glass"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                app:srcCompat="@drawable/more"
+                android:contentDescription="@string/icon"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/appbottom"
+        android:layout_width="420dp"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/home"
+            android:contentDescription="@string/icon"/>
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="280dp"
+            app:srcCompat="@drawable/icon_short"
+            android:contentDescription="@string/icon"/>
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="170dp"
+            app:srcCompat="@drawable/add"
+            android:contentDescription="@string/icon"/>
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="90dp"
+            app:srcCompat="@drawable/subscriptions"
+            android:contentDescription="@string/icon"/>
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            app:srcCompat="@drawable/library"
+            android:contentDescription="@string/icon"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+

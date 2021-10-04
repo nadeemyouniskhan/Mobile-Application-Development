@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="youtube">Youtube</string>
+    <string name="all">All</string>
+    <string name="pakistan">Pakistan</string>
+    <string name="dry_fruit_se_bhhara_fresh_juice_ka_glass">Dry fruit Se Bhhara Fresh juice Ka Glass</string>
+       <string name="icon">icon</string>
+    <string name="cast">cast</string>
+    <string name="cartoon">Cartoon</string>
+
+</resources>
